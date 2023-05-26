@@ -1,0 +1,3 @@
+entity.pacman:pacman.name=Pacman
+entity.spit:spit.name=Toxic spit
+item.spawn_egg.entity.pacman:pacman.name=Spawn Pacman

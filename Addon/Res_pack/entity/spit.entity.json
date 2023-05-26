@@ -1,0 +1,26 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pacman:spit",
+			"min_engine_version":"1.18.0",
+			"materials": {
+				"default": ""
+			},
+			"textures": {
+				"default": "textures/entity/pacman/spit"
+			},
+			"geometry": {
+				"default": "geometry.spit"
+			},
+			"animations": {
+				"normal":"animation.pacman.spit.normal",
+                "becomePuddle":"animation.pacman.spit.becomePuddle",
+                "disappear":"animation.pacman.spit.disappear"
+			},
+			"scripts": {
+				"pre_animation": ["variable.hasHitGround=false;variable.lifeSpan="]
+			}
+		}
+	}
+}

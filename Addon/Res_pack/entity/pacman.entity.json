@@ -1,0 +1,31 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pacman:pacman",
+			"min_engine_version":"1.18.0",
+			"materials": {
+				"default": ""
+			},
+			"textures": {
+				"default": "textures/entity/pacman/pac"
+			},
+			"geometry": {
+				"default": "geometry.pacman"
+			},
+			"spawn_egg": {
+				"base_color": "#fcff00",
+				"overlay_color": "#ae0000"
+			},
+			"animations": {
+				"sleep": "animation.pacman.sleep",
+				"grab": "animation.pacman.grab",
+				"wakeUp": "animation.pacman.wakeUp",
+				"normal": "animation.pacman.normal"
+			},
+			"scripts": {
+				"pre_animation": ["variable.hungerLevel=math.randomInteger(50,100);variable.saliva=0;variable.requiredSaliva=math.randomInteger(100,150);variable.sleepTimer=0"]
+			}
+		}
+	}
+}

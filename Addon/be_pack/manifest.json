@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "e",
+		"description": "e Behavior Pack",
+		"uuid": "da809065-330a-27f9-572e-fb37b3db1f79",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c0eefc14-2898-2ac0-c919-ca9cb707ed7c",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "dc504f18-255a-d418-1989-6b0685b5c091",
+			"version": [1, 0, 0]
+		}
+	]
+}

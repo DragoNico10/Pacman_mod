@@ -1,5 +1,6 @@
 # Pacman mod TO-DO
 - [ ] Pacman skin
+- [ ] Dried pacman skin
 - [ ] Bottled saliva
 - [ ] Pacman mount
 ### Behaviour:
