@@ -1,7 +1,7 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"e:e": {
+			"pacman:pacman": {
 				"events": {
 					"ambient": "mob.frog.ambient",
 					"ambient.baby": {

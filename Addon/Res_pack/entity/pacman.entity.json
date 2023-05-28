@@ -5,10 +5,11 @@
 			"identifier": "pacman:pacman",
 			"min_engine_version":"1.18.0",
 			"materials": {
-				"default": ""
+				"default": "pacman"
 			},
 			"textures": {
-				"default": "textures/entity/pacman/pac"
+				"default": "textures/entity/pacman/pac",
+				"saddled": "textures/entity/pacman/pac_saddle"
 			},
 			"geometry": {
 				"default": "geometry.pacman"

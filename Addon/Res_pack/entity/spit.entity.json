@@ -5,7 +5,7 @@
 			"identifier": "pacman:spit",
 			"min_engine_version":"1.18.0",
 			"materials": {
-				"default": ""
+				"default": "spit"
 			},
 			"textures": {
 				"default": "textures/entity/pacman/spit"
